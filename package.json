@@ -1,6 +1,6 @@
 {
   "name": "@cecilapp/netlify-plugin-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Persist the Cecil’s cache between Netlify builds.",
   "main": "index.js",
   "repository": {
