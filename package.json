@@ -1,5 +1,5 @@
 {
-  "name": "@cecil/netlify-plugin-cache",
+  "name": "@cecilapp/netlify-plugin-cache",
   "version": "1.0.0",
   "description": "Persist the Cecil’s cache between Netlify builds.",
   "main": "index.js",
