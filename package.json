@@ -3,7 +3,10 @@
   "version": "1.0.1",
   "description": "Persist the Cecil’s cache between Netlify builds.",
   "main": "index.js",
-  "repository": "https://github.com/Cecilapp/netlify-plugin-cache.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cecilapp/netlify-plugin-cache.git"
+  },
   "bugs": {
     "url": "https://github.com/Cecilapp/netlify-plugin-cache/issues"
   },
