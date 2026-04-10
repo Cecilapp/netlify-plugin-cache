@@ -1,11 +1,11 @@
 {
-  "name": "netlify-plugin-cecil-cache",
-  "version": "0.3.4",
+  "name": "@cecil/netlify-plugin-cache",
+  "version": "1.0.0",
   "description": "Persist the Cecil’s cache between Netlify builds.",
   "main": "index.js",
-  "repository": "https://github.com/Cecilapp/netlify-plugin-cecil-cache.git",
+  "repository": "https://github.com/Cecilapp/netlify-plugin-cache.git",
   "bugs": {
-    "url": "https://github.com/Cecilapp/netlify-plugin-cecil-cache/issues"
+    "url": "https://github.com/Cecilapp/netlify-plugin-cache/issues"
   },
   "author": "Arnaud Ligny <arnaud@ligny.fr> (https://arnaudligny.fr)",
   "license": "MIT",
