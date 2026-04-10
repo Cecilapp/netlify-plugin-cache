@@ -1,6 +1,6 @@
 # netlify-plugin-cache
 
-This [Netlify plugins](https://www.netlify.com/platform/core/functions/) persist the [Cecil](https://cecil.app)’s cache between Netlify builds.
+This [Netlify plugins](https://docs.netlify.com/build-plugins/) persist the [Cecil](https://cecil.app)’s cache between Netlify builds.
 
 ## Usage
 
