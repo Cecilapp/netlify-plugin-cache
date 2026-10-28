@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cecilapp/netlify-plugin-cecil-cache.git"
+    "url": "git+https://github.com/Cecilapp/netlify-plugin-cache.git"
   },
   "bugs": {
-    "url": "https://github.com/Cecilapp/netlify-plugin-cecil-cache/issues"
+    "url": "https://github.com/Cecilapp/netlify-plugin-cache/issues"
   },
-  "homepage": "https://github.com/Cecilapp/netlify-plugin-cecil-cache#readme",
+  "homepage": "https://github.com/Cecilapp/netlify-plugin-cache#readme",
   "author": "Arnaud Ligny <arnaud@ligny.fr> (https://arnaudligny.fr)",
   "license": "MIT",
   "keywords": [
