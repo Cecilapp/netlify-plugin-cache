@@ -1,4 +1,4 @@
-# netlify-plugin-cache
+# @cecilapp/netlify-plugin-cache
 
 This [Netlify plugin](https://docs.netlify.com/build-plugins/) persists the [Cecil](https://cecil.app)’s cache between Netlify builds.
 
@@ -8,17 +8,17 @@ There are two ways to install this plugin:
 
 ### Installing from [Netlify UI](https://docs.netlify.com/build-plugins/#ui-installation)
 
-[One-click install](http://app.netlify.com/plugins/@cecilapp/netlify-plugin-cache/install) to add this to your Cecil site.
+[One-click install](https://app.netlify.com/plugins/@cecilapp/netlify-plugin-cache/install) to add this to your Cecil site.
 
 ### Installing from [npm](https://www.npmjs.com/package/@cecilapp/netlify-plugin-cache)
 
-Add the plugin in `package.json`:
+Add the plugin to your project’s `package.json`:
 
 ```bash
 npm install -D @cecilapp/netlify-plugin-cache
 ```
 
-Add the following lines to your project's `netlify.toml` file:
+Add the following lines to your project’s `netlify.toml` file:
 
 ```toml
 [build]
@@ -33,9 +33,17 @@ Add the following lines to your project's `netlify.toml` file:
 [[plugins]]
   package = "@cecilapp/netlify-plugin-cache"
   [plugins.inputs]
-  cacheDir = ".cache" # Cache directory (`.cache` by default)
-  debug = true        # Print list of cached folders in build log (`false` by default)
+  cacheDir = ".cache" # Cache directory, relative to the project root (`.cache` by default)
+  debug = true        # Print the list of cached items in build log (`false` by default)
 ```
+
+### Environment variables
+
+The plugin reads the same environment variables as Cecil:
+
+- `CECIL_CACHE_DIR`: cache directory (takes precedence over the `cacheDir` input)
+- `CECIL_CACHE_ENABLED=false`: cache is disabled, so the plugin doesn’t restore nor store anything
+- `CECIL_DEBUG=true`: print the list of cached items in build log
 
 ## License
 
